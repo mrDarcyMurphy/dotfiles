@@ -1,0 +1,16 @@
+{
+  "name": "dotfiles",
+  "version": "0.0.0",
+  "description": "my env",
+  "main": "install.js",
+  "scripts": {
+    "install": "node ./install.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mrDarcyMurphy/dotfiles.git"
+  },
+  "author": "Mr. Darcy Murphy",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}

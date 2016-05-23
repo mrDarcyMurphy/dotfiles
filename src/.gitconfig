@@ -1,0 +1,46 @@
+[credential]
+  helper = osxkeychain
+[user]
+  name = Darcy Murphy
+  email = mrDarcyMurphy@gmail.com
+[github]
+  user = mrDarcyMurphy
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+[alias]
+  st = status
+  ci = commit
+  co = checkout
+  br = branch
+  last = log -n1 -p
+  history = log --graph --pretty=format:'%Cred%h%Creset %aN -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+  latest = for-each-ref --count=12 --sort=-committerdate refs/heads/ --format='%(authordate:format:%c) %(color:blue)%(refname:short)%(color:reset)'
+  dm = !git diff | subl
+  a = add -A
+  d = diff
+  dc = diff --cached
+  ds = diff | subl
+  lg = log --graph --abbrev-commit --date=relative
+  p = push
+  s = status -s
+  u = pull --rebase
+  cnf = !git ls-files -u | cut -f 2 | sort -u
+[core]
+  editor = atom --wait
+  excludesfile = /Users/LoudBit/.gitignore_global
+[push]
+  default = tracking
+[difftool]
+  prompt = false
+[mergetool]
+  prompt = false
+[filter "media"]
+  required = true
+  clean = git media clean %f
+  smudge = git media smudge %f
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
