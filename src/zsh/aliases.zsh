@@ -14,6 +14,7 @@ alias wbr=parse_git_branch
 # NODE
 alias gdn='grunt dev && n'
 alias gdt='grunt dev && grunt test'
+# alias rm=trash
 
 # # NODE-WEBKIT
 # alias nw="/Applications/node-webkit.app/Contents/MacOS/node-webkit"

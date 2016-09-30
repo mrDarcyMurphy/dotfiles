@@ -24,6 +24,7 @@
   ds = diff | subl
   lg = log --graph --abbrev-commit --date=relative
   p = push
+  pf = push --force-with-lease
   s = status -s
   u = pull --rebase
   cnf = !git ls-files -u | cut -f 2 | sort -u
