@@ -16,6 +16,10 @@ conditionallySymlinkSync( __dirname + '/src/js/.jshintrc', home + '/.jshintrc')
 log('\nLINKING: .gemrc')
 conditionallySymlinkSync( __dirname + '/src/.gemrc', home + '/.gemrc')
 
+// .hyper.js
+log('\nLINKING: .hyper.js')
+conditionallySymlinkSync( __dirname + '/src/.hyper.js', home + '/.hyper.js')
+
 // .vimrc
 log('\nLINKING: .vimrc')
 conditionallySymlinkSync( __dirname + '/src/.vimrc', home + '/.vimrc' )
