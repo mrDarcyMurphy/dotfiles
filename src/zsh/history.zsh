@@ -4,4 +4,4 @@ export HISTFILE="$HOME/.zsh_history"
 export SAVEHIST=$HISTSIZE
 
 # Include other shell's commands in current history
-# setopt SHARE_HISTORY
+setopt SHARE_HISTORY
