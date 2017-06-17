@@ -25,3 +25,6 @@ if [[ -e ~/.zsh ]]; then
     source $a
   done
 fi
+
+# GPG
+export GPG_TTY=$(tty)
