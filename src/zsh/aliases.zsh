@@ -5,11 +5,13 @@ alias ls='ls -AFhgGo'
 alias g=git
 alias gb='git branch'
 alias gc='git commit -m'
-alias gup='g u && g p'
 alias gap='git add -p'
 alias gpu=gpu
 alias gphm='git push heroku master'
 alias wbr=parse_git_branch
+alias guud='git pull upstream develop'
+alias gpl='git push --force-with-lease'
+# alias gdso='git checkout -b DSO-"$1"'
 
 # NODE
 alias gdn='grunt dev && n'

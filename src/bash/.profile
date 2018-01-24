@@ -41,7 +41,7 @@ ulimit -n 1024
 alias g='git'
 alias gb='git branch'
 alias gc='git commit -m'
-alias gup='g u && g p'
+# alias gup='g u && g p'
 alias gap='git add -p'
 alias gphm='git push heroku master'
 

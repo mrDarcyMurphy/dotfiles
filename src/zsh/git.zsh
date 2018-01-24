@@ -186,5 +186,5 @@ new-branch() {
 # Jira check in
 jci() {
   branch=`parse_git_branch`
-  git commit -m "${branch[(ws:-:)1]:u}-${branch[(ws:-:)2]} $1"
+  git commit -m "${branch[(ws:-:)1]:u}-${branch[(ws:-:)2]}: $1"
 }
