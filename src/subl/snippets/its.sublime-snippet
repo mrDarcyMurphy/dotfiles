@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+it('should ${1}', () => {
+	${2}
+});
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>its</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.ts</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>it =></description>
+</snippet>
