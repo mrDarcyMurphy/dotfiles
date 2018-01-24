@@ -9,16 +9,16 @@ log('\nLINKING: .gitconfig')
 conditionallySymlinkSync( __dirname + '/src/.gitconfig', home + '/.gitconfig')
 
 // .jshintrc
-log('\nLINKING: .jshintrc')
-conditionallySymlinkSync( __dirname + '/src/js/.jshintrc', home + '/.jshintrc')
+// log('\nLINKING: .jshintrc')
+// conditionallySymlinkSync( __dirname + '/src/js/.jshintrc', home + '/.jshintrc')
 
 // .gemrc
-log('\nLINKING: .gemrc')
-conditionallySymlinkSync( __dirname + '/src/.gemrc', home + '/.gemrc')
+// log('\nLINKING: .gemrc')
+// conditionallySymlinkSync( __dirname + '/src/.gemrc', home + '/.gemrc')
 
 // .hyper.js
-log('\nLINKING: .hyper.js')
-conditionallySymlinkSync( __dirname + '/src/.hyper.js', home + '/.hyper.js')
+// log('\nLINKING: .hyper.js')
+// conditionallySymlinkSync( __dirname + '/src/.hyper.js', home + '/.hyper.js')
 
 // .vimrc
 log('\nLINKING: .vimrc')
@@ -33,15 +33,15 @@ log('\nLINKING: src/zsh')
 conditionallySymlinkSync( __dirname + '/src/zsh', home + '/.zsh', 'dir' )
 
 // ansible
-log('\nLINKING: .ansible.cfg')
-conditionallySymlinkSync( __dirname + '/src/ansible/.ansible.cfg', home + '/.ansible.cfg' )
+// log('\nLINKING: .ansible.cfg')
+// conditionallySymlinkSync( __dirname + '/src/ansible/.ansible.cfg', home + '/.ansible.cfg' )
 
 // Sublime Text 3
-log('\nLINKING: subl')
-conditionallySymlinkSync( '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl', '/usr/local/bin/subl' )
+// log('\nLINKING: subl')
+// conditionallySymlinkSync( '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl', '/usr/local/bin/subl' )
 
 // preferences
-log('\nLINKING: src/subl/Preferences.sublime-settings')
-conditionallySymlinkSync( __dirname + '/src/subl/Preferences.sublime-settings', home + '/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings' )
+// log('\nLINKING: src/subl/Preferences.sublime-settings')
+// conditionallySymlinkSync( __dirname + '/src/subl/Preferences.sublime-settings', home + '/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings' )
 
 log('\n-- DONE\n')
