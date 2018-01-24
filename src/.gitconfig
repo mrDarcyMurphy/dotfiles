@@ -1,8 +1,8 @@
 [credential]
   helper = osxkeychain
 [user]
-  name = Mr. Darcy Murphy
-  email = darcy.murphy@loudbit.com
+  name = Darcy Murphy
+  email = darcy.murphy@merrillcorp.com
 [github]
   user = mrDarcyMurphy
 [color]
@@ -28,20 +28,29 @@
   s = status -s
   u = pull --rebase
   cnf = !git ls-files -u | cut -f 2 | sort -u
+  dso = "!f() { git checkout -b DSO-$1; }; f"
 [core]
-  editor = atom --wait
-  excludesfile = /Users/LoudBit/.gitignore_global
+  editor = subl -w
+  excludesfile = /Users/dmurphya/.gitignore
 [push]
   default = tracking
+[difftool "Kaleidoscope"]
+  cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
 [difftool]
   prompt = false
+[diff]
+  tool = ksdiff
+[mergetool "Kaleidoscope"]
+  cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" \"$REMOTE\"
 [mergetool]
   prompt = false
+[merge]
+  tool = Kaleidoscope
 [filter "media"]
   required = true
   clean = git media clean %f
   smudge = git media smudge %f
 [filter "lfs"]
-	clean = git-lfs clean %f
-	smudge = git-lfs smudge %f
-	required = true
+  clean = git-lfs clean %f
+  smudge = git-lfs smudge %f
+  required = true
