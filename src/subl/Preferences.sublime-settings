@@ -1,6 +1,5 @@
 {
 	"always_show_minimap_viewport": true,
-	"auto_complete_commit_on_tab": true,
 	"auto_indent": true,
 	"binary_file_patterns":
 	[
@@ -24,7 +23,7 @@
 	"caret_extra_top": 1,
 	"caret_extra_width": 1,
 	"caret_style": "blink",
-    "close_windows_when_empty": false,
+	"close_windows_when_empty": false,
 	"color_scheme": "Packages/Color Scheme - Wallaby/Nord.tmTheme",
 	"dictionary": "Packages/Language - English/en_GB.dic",
 	"draw_indent_guides": true,
@@ -46,13 +45,13 @@
 		"subpixel_antialias"
 	],
 	"font_size": 14,
+	"gpu_window_buffer": true,
 	"gravity_highlight_color_blue": false,
 	"gravity_sidebar_header": true,
 	"gravity_tab_font_small": false,
 	"gravity_tab_height_short": true,
 	"gravity_tab_height_tall": false,
 	"gravity_title_bar": false,
-	"gpu_window_buffer": true,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -76,6 +75,7 @@
 	"smart_indent": true,
 	"tabs_medium": true,
 	"tabs_small": false,
+	"terminal": "iterm",
 	"theme": "DA.sublime-theme",
 	"theme_accent_mono": true,
 	"theme_bar": true,
@@ -97,9 +97,8 @@
 	"theme_tab_selected_underlined": true,
 	"theme_tab_size_md": true,
 	"theme_unified": true,
-	"terminal": "iterm",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_simple_full_screen": false,
 	"word_wrap": "false"
-	}
+}

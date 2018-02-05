@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+console.log('🔈 ${1}:', ${1});
+]]></content>
+    <tabTrigger>vlog</tabTrigger>
+    <scope>source.ts,source.js</scope>
+    <description>value logger</description>
+</snippet>

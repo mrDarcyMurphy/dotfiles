@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[console.info('💥 ${1}');]]></content>
+    <tabTrigger>effectLog</tabTrigger>
+    <scope>source.ts,source.js</scope>
+    <description>ngrx Effect log</description>
+</snippet>
