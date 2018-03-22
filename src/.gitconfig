@@ -30,7 +30,7 @@
   cnf = !git ls-files -u | cut -f 2 | sort -u
   dso = "!f() { git checkout -b DSO-$1; }; f"
 [core]
-  editor = subl -w
+  editor = vim
   excludesfile = /Users/dmurphya/.gitignore
 [push]
   default = tracking

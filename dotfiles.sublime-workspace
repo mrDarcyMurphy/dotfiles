@@ -1,0 +1,1003 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"displ",
+				"displayNotesDropDown"
+			],
+			[
+				"publi",
+				"publishingStatusDropDown"
+			],
+			[
+				"publ",
+				"publishingStatus"
+			],
+			[
+				"de",
+				"describe\tMy Fancy Describe"
+			],
+			[
+				"filter",
+				"filterAfterViewInit\tmethod"
+			],
+			[
+				"drop",
+				"dropDownName\tlet"
+			],
+			[
+				"pub",
+				"publishingStatusDropDown"
+			],
+			[
+				"exten",
+				"extensionDropDown"
+			],
+			[
+				"selec",
+				"selectedOption\tproperty"
+			],
+			[
+				"handle",
+				"handleOnFilter\tmethod"
+			],
+			[
+				"ca",
+				"callThrough\tmethod"
+			],
+			[
+				"cl",
+				"clog\tconsole log"
+			],
+			[
+				"cur",
+				"cur:p\tcursor:pointer"
+			],
+			[
+				"debug",
+				"debugger\tkeyword"
+			],
+			[
+				"toHave",
+				"toHaveBeenCalledTimes\tmethod"
+			],
+			[
+				"Data",
+				"DataTransferItemList"
+			],
+			[
+				"data",
+				"dataTransferItems"
+			],
+			[
+				"DataTr",
+				"DataTransfer\tinterface"
+			],
+			[
+				"DataTrans",
+				"DataTransferItemList\tinterface"
+			],
+			[
+				"toHa",
+				"toHaveBeenCalledTimes\tmethod"
+			],
+			[
+				"fil",
+				"fileList\tproperty"
+			],
+			[
+				"before",
+				"beforeEach\tfunction"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 353.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"wall",
+				"Wallaby.js: Toggle Tests View"
+			],
+			[
+				"da",
+				"DA UI: Theme Settings"
+			],
+			[
+				"blam",
+				"Git Blame"
+			],
+			[
+				"lint",
+				"SublimeLinter: Report (Open Files)"
+			],
+			[
+				"fold",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"wal",
+				"Wallaby.js: Start"
+			],
+			[
+				"e",
+				"Emoji: Insert Emoji"
+			],
+			[
+				"wa",
+				"Wallaby.js: Start"
+			],
+			[
+				"em",
+				"Emoji: Insert Emoji"
+			],
+			[
+				"blame",
+				"Git Blame"
+			],
+			[
+				"emo",
+				"Emoji: Insert Emoji"
+			],
+			[
+				"bla",
+				"Git Blame"
+			],
+			[
+				"ee",
+				"Emoji: Insert Emoji"
+			],
+			[
+				"emoj",
+				"Emoji: Insert Emoji"
+			],
+			[
+				"ui: ",
+				"UI: Select Theme"
+			],
+			[
+				"ui",
+				"UI: Select Theme"
+			],
+			[
+				"ui:",
+				"DA UI: Color Scheme Settings"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"UI: Select Theme",
+				"UI: Select Theme"
+			],
+			[
+				"pack ins",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack li",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"typescript err",
+				"TypeScript: Show Error List"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"wallab",
+				"Wallaby.js: Focus Tests View"
+			],
+			[
+				"walab",
+				"Wallaby.js: Stop"
+			],
+			[
+				"emoji",
+				"Emoji: Insert Emoji"
+			],
+			[
+				"instal\t",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"confi",
+				"Boxy Theme: Configuration"
+			],
+			[
+				"instal ",
+				"Package Control: Install Package"
+			],
+			[
+				"brow",
+				"Browse Mode..."
+			],
+			[
+				"pack in",
+				"Package Control: Install Package"
+			],
+			[
+				"pack ",
+				"Package Control: List Packages"
+			],
+			[
+				"",
+				"Boxy Theme: Configuration"
+			],
+			[
+				"box",
+				"Boxy Theme: Configuration"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"g",
+				"Preferences: GitGutter Settings"
+			],
+			[
+				"git",
+				"Preferences: GitGutter Settings"
+			],
+			[
+				"subli mark",
+				"SublimeLinter: Choose Mark Style"
+			]
+		],
+		"width": 562.0
+	},
+	"console":
+	{
+		"height": 276.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/dmurphya/dotfiles",
+		"/Users/dmurphya/dotfiles/src",
+		"/Users/dmurphya/dotfiles/src/subl",
+		"/Users/dmurphya/dotfiles/src/subl/snippets"
+	],
+	"file_history":
+	[
+		"/Users/dmurphya/dotfiles/src/subl/snippets/describe.sublime-snippet",
+		"/Users/dmurphya/dotfiles/src/subl/snippets/beforeEach.sublime-snippet",
+		"/Users/dmurphya/dotfiles/src/subl/snippets/afterEach.sublime-snippet",
+		"/Users/dmurphya/dotfiles/src/subl/snippets/its.sublime-snippet",
+		"/Users/dmurphya/dotfiles/src/subl/snippets/infoLog.sublime-snippet",
+		"/Users/dmurphya/dotfiles/.gitignore",
+		"/Users/dmurphya/dotfiles/src/subl/snippets/vlog.sublime-snippet",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/content-data-table/content-data-table.component.spec.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/test/mouse-event-helper.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/directives/drag-drop-row.directive.spec.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/content-data-table/content-data-table.component.unit.spec.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/test/type-safe-element.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/content-edit-panel/content-edit-panel.component.unit.spec.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/content-data-table/content-data-table.component.html",
+		"/Users/dmurphya/src/dmurphya/manda-app/package.json",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/assets/styles/components/_dropdown.scss",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/content-data-table/content-data-table-columndefs.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/content-data-table/content-data-table.component.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/content-data-table/content-data-table.component.ts.orig",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/core/can-activate-content-upload.service.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/content-upload-chunky/content-upload-chunky.component.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/+state/uploader/uploader.actions.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/.git/COMMIT_EDITMSG",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/test/api/projects/59a5fcea86780c000f91dd83/metadata/v2/favorite.json",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/content-data-table/content-data-table-item.model.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/conf/webpack.config.js",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/core/+state/core.init.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/core/+state/core.selectors.spec.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/core/+state/core.selectors.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/core/+state/feature-flag/feature-flag.model.spec.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/core/+state/feature-flag/feature-flag.interface.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/shared/prime-extensions/chunky/file-upload.component.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/core/+state/navigation/navigation.effects.spec.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/core/+state/feature-flag/feature-flag.reducer.spec.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/core/+state/feature-flag/feature-flag.model.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/content.service.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/shared/mocks/mock-content.service.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/content.module.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/reports/reports-filters/reports-filters.component.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/+state/content.selectors.spec.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/+state/content.selectors.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/+state/content-grid/content-grid.effects.spec.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/+state/content-grid/content-grid.effects.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/pipes/formatDate.pipe.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/shared/shared.module.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/content-upload-chunky/content-upload-chunky.component.html",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/shared/prime-extensions/chunky/file-upload.component.html",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/content-toolbar/toolbar-button/toolbar-button-replace.component.html",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/shared/file-upload-drop-target/file-upload-drop-target.component.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/content-upload/content-upload.component.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/shared/prime-extensions/file-upload.component.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/shared/prime-extensions/file-upload.component.html",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/shared/prime-extensions/file-upload.component.spec.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/content-toolbar/toolbar-button/toolbar-button-replace.component.spec.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/assets/styles/_modals.scss",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/content-upload/content-upload.component.html",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/content-toolbar/toolbar-button/toolbar-button-replace.component.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/shared/prime-extensions/chunky/file-upload.component.scss",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/assets/styles/_components.scss",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/shared/prime-extensions/file-upload.component.scss",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/permissions/permissions-data-table/permissions-data-table.component.scss",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/assets/styles/_colors.scss",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/assets/styles/components/_buttons.scss",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/shared/shared.service.ts",
+		"/Users/dmurphya/Library/Application Support/Sublime Text 3/Packages/Wallaby/projects/73beedc7a78883d0/instrumented/screen.png",
+		"/Users/dmurphya/Library/Application Support/Sublime Text 3/Packages/Javascript Beautify/Default (OSX).sublime-keymap",
+		"/Users/dmurphya/Desktop/amazon prime apple tv app.js",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/core/+state/feature-flag/feature-flag.reducer.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/content-upload/content-upload.component.spec.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/content-upload-chunky/content-upload-chunky.component.spec.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/shared/prime-extensions/chunky/file-upload.component.spec.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/imports/rxjs.imports.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/content-toolbar/toolbar-button/toolbar-button-new-file.component.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/access-level.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/content.component.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/content.component.html",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/+state/breadcrumbs/breadcrumbs.actions.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/+state/breadcrumbs/breadcrumbs.reducer.ts",
+		"/Users/dmurphya/Library/Application Support/Sublime Text 3/Packages/Alignment/Default (OSX).sublime-keymap",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/content.component.spec.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/+state/breadcrumbs/breadcrumbs.interfaces.ts",
+		"/Users/dmurphya/Library/Application Support/Sublime Text 3/Packages/Alignment/Base File.sublime-settings",
+		"/Users/dmurphya/Library/Application Support/Sublime Text 3/Packages/FileBrowser/Default (OSX).sublime-keymap",
+		"/Users/dmurphya/Library/Application Support/Sublime Text 3/Packages/FileBrowser/dired.sublime-settings",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/+state/container/container.interfaces.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/+state/container/container.reducer.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/+state/container/container.actions.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/+state/breadcrumbs/breadcrumbs.effects.spec.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/+state/breadcrumbs/breadcrumbs.effects.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/+state/content.init.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/.git/MERGE_MSG",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/shared/mocks/mock-util.ts",
+		"/Users/dmurphya/.gitconfig",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/shared/mocks/mock-files-meta.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/conf/karma.conf.js",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/+state/content.interfaces.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/content-upload/content-upload-steps.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app.sublime-project",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/content-toolbar/toolbar-button/toolbar-button-new-folder-component.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/content-toolbar/toolbar-button/toolbar-button-new-folder.component.html",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/content-upload-chunky/content-upload-chunky-steps.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/test/http/http-testing.module.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/shared/socket.service.spec.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/core/user.session.spec.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/content/content.service.spec.ts",
+		"/Users/dmurphya/src/dmurphya/manda-app/src/app/shared/mocks/mock-filerooms-meta.ts",
+		"/Users/dmurphya/src/manda-app/src/routes.ts"
+	],
+	"find":
+	{
+		"height": 56.0
+	},
+	"find_in_files":
+	{
+		"height": 138.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.errorlist":
+	{
+		"height": 130.0
+	},
+	"output.exec":
+	{
+		"height": 136.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.wallabyjs":
+	{
+		"height": 421.0
+	},
+	"output.wallabyjs_console":
+	{
+		"height": 230.0
+	},
+	"pinned_build_system": "",
+	"project": "dotfiles.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"element",
+				"src/test/type-safe-element.ts"
+			],
+			[
+				"mouse",
+				"src/test/mouse-event-helper.ts"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"column def",
+				"src/app/content/content-data-table/content-data-table-columndefs.ts"
+			],
+			[
+				"content-data-table.comp ori",
+				"src/app/content/content-data-table/content-data-table.component.ts.orig"
+			],
+			[
+				"content data table com ts",
+				"src/app/content/content-data-table/content-data-table.component.ts"
+			],
+			[
+				"we",
+				"conf/webpack.config.js"
+			],
+			[
+				"content-data-table.component.spec.t",
+				"src/app/content/content-data-table/content-data-table.component.spec.ts"
+			],
+			[
+				"core sele",
+				"src/app/core/+state/core.selectors.ts"
+			],
+			[
+				"feature",
+				"src/app/core/+state/feature-flag/feature-flag.interface.ts"
+			],
+			[
+				"content module",
+				"src/app/content/content.module.ts"
+			],
+			[
+				"mock",
+				"src/app/shared/mocks/mock-content.service.ts"
+			],
+			[
+				"content serv",
+				"src/app/content/content.service.ts"
+			],
+			[
+				"content data table html",
+				"src/app/content/content-data-table/content-data-table.component.html"
+			],
+			[
+				"content data table comp ",
+				"src/app/content/content-data-table/content-data-table.component.ts"
+			],
+			[
+				"content data table spec",
+				"src/app/content/content-data-table/content-data-table.component.spec.ts"
+			],
+			[
+				"contentdatatablehtml",
+				"src/app/content/content-data-table/content-data-table.component.html"
+			],
+			[
+				"contentservice",
+				"src/app/content/content.service.ts"
+			],
+			[
+				"mockcontent",
+				"src/app/shared/mocks/mock-content.service.ts"
+			],
+			[
+				"contentdatatablespec",
+				"src/app/content/content-data-table/content-data-table.component.spec.ts"
+			],
+			[
+				"contentdatatable",
+				"src/app/content/content-data-table/content-data-table.component.html"
+			],
+			[
+				"contend-datacolum",
+				"src/app/content/content-data-table/content-data-table-columndefs.ts"
+			],
+			[
+				"columndef",
+				"src/app/content/content-data-table/content-data-table-columndefs.ts"
+			],
+			[
+				"mockconten",
+				"src/app/shared/mocks/mock-content.service.ts"
+			],
+			[
+				"contentserv",
+				"src/app/content/content.service.ts"
+			],
+			[
+				"contdatahtml",
+				"src/app/content/content-data-table/content-data-table.component.html"
+			],
+			[
+				"chunkyhtml",
+				"src/app/content/content-upload-chunky/content-upload-chunky.component.html"
+			],
+			[
+				"contentser",
+				"src/app/content/content.service.ts"
+			],
+			[
+				"replacehtml",
+				"src/app/content/content-toolbar/toolbar-button/toolbar-button-replace.component.html"
+			],
+			[
+				"fileuploadcompspec",
+				"src/app/shared/prime-extensions/file-upload.component.spec.ts"
+			],
+			[
+				"file-upload",
+				"src/app/shared/prime-extensions/file-upload.component.ts"
+			],
+			[
+				"chunkyuploadcomp",
+				"src/app/shared/prime-extensions/chunky/file-upload.component.html"
+			],
+			[
+				"modals",
+				"src/assets/styles/_modals.scss"
+			],
+			[
+				"fileupload",
+				"src/app/shared/prime-extensions/file-upload.component.ts"
+			],
+			[
+				"fileuploadcom",
+				"src/app/shared/prime-extensions/file-upload.component.ts"
+			],
+			[
+				"toolreplace",
+				"src/app/content/content-toolbar/toolbar-button/toolbar-button-replace.component.html"
+			],
+			[
+				"src/assets/styles/_components.scss",
+				"src/assets/styles/_components.scss"
+			],
+			[
+				"chunkyfileup",
+				"src/app/shared/prime-extensions/chunky/file-upload.component.html"
+			],
+			[
+				"buttons",
+				"src/assets/styles/components/_buttons.scss"
+			],
+			[
+				"chunkyfilescss",
+				"src/app/shared/prime-extensions/chunky/file-upload.component.scss"
+			],
+			[
+				"chunkyfileuploadhtml",
+				"src/app/shared/prime-extensions/chunky/file-upload.component.html"
+			],
+			[
+				"chunkyup",
+				"src/app/content/content-upload-chunky/content-upload-chunky.component.html"
+			],
+			[
+				"fileuploadscss",
+				"src/app/shared/prime-extensions/file-upload.component.scss"
+			],
+			[
+				"chunky",
+				"src/app/content/content-upload-chunky/content-upload-chunky.component.html"
+			],
+			[
+				"shared",
+				"src/app/shared/shared.service.ts"
+			],
+			[
+				"fileuploadhtml",
+				"src/app/shared/prime-extensions/file-upload.component.html"
+			],
+			[
+				"sharedser",
+				"src/app/shared/shared.service.ts"
+			],
+			[
+				"contupspects",
+				"src/app/content/content-upload/content-upload.component.spec.ts"
+			],
+			[
+				"contentuploadcom",
+				"src/app/content/content-upload/content-upload.component.ts"
+			],
+			[
+				"chunkycontentupload",
+				"src/app/content/content-upload-chunky/content-upload-chunky.component.spec.ts"
+			],
+			[
+				"content-upload",
+				"src/app/content/content-upload/content-upload.component.spec.ts"
+			],
+			[
+				"chunkyfileuploadspec",
+				"src/app/shared/prime-extensions/chunky/file-upload.component.spec.ts"
+			],
+			[
+				"fileup",
+				"src/app/shared/prime-extensions/file-upload.component.ts"
+			],
+			[
+				"rxjs",
+				"src/imports/rxjs.imports.ts"
+			],
+			[
+				"chunkcontupcompspe",
+				"src/app/content/content-upload-chunky/content-upload-chunky.component.spec.ts"
+			],
+			[
+				"contentuploacompspe",
+				"src/app/content/content-upload/content-upload.component.spec.ts"
+			],
+			[
+				"buttonfile",
+				"src/app/content/content-toolbar/toolbar-button/toolbar-button-new-file.component.ts"
+			],
+			[
+				"contuploadcomphtml",
+				"src/app/content/content-upload/content-upload.component.html"
+			],
+			[
+				"chunkyuphtml",
+				"src/app/content/content-upload-chunky/content-upload-chunky.component.html"
+			],
+			[
+				"chuncontentupcomp",
+				"src/app/content/content-upload-chunky/content-upload-chunky.component.ts"
+			],
+			[
+				"contentupcomp",
+				"src/app/content/content-upload/content-upload.component.ts"
+			],
+			[
+				"chunkyfileuplo",
+				"src/app/shared/prime-extensions/chunky/file-upload.component.ts"
+			],
+			[
+				"chunkyfileupcom",
+				"src/app/shared/prime-extensions/chunky/file-upload.component.html"
+			],
+			[
+				"access",
+				"src/app/content/access-level.ts"
+			],
+			[
+				"contentcompots",
+				"src/app/content/content.component.ts"
+			],
+			[
+				"file-uplo",
+				"src/app/shared/prime-extensions/file-upload.component.html"
+			],
+			[
+				"access-",
+				"src/app/content/access-level.ts"
+			],
+			[
+				"breadcrum",
+				"src/app/content/+state/breadcrumbs/breadcrumbs.interfaces.ts"
+			],
+			[
+				"rx",
+				"src/imports/rxjs.imports.ts"
+			],
+			[
+				"contentsele",
+				"src/app/content/+state/content.selectors.ts"
+			],
+			[
+				"fileupcom.ts",
+				"src/app/shared/prime-extensions/file-upload.component.ts"
+			],
+			[
+				"file",
+				"src/app/shared/prime-extensions/file-upload.component.spec.ts"
+			],
+			[
+				"mockcone",
+				"src/app/shared/mocks/mock-content.service.ts"
+			],
+			[
+				"mockutil",
+				"src/app/shared/mocks/mock-util.ts"
+			],
+			[
+				"chunkycontentupcomp",
+				"src/app/content/content-upload-chunky/content-upload-chunky.component.ts"
+			],
+			[
+				"contentupload",
+				"src/app/content/content-upload/content-upload.component.ts"
+			],
+			[
+				"contentuploadspec",
+				"src/app/content/content-upload/content-upload.component.spec.ts"
+			],
+			[
+				"fileuploadcomp",
+				"src/app/shared/prime-extensions/file-upload.component.ts"
+			],
+			[
+				"chunkyfileupload",
+				"src/app/shared/prime-extensions/chunky/file-upload.component.ts"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"karma",
+				"conf/karma.conf.js"
+			],
+			[
+				"replacecompspec",
+				"src/app/content/content-toolbar/toolbar-button/toolbar-button-replace.component.spec.ts"
+			],
+			[
+				"chunkyfileuploa",
+				"src/app/shared/prime-extensions/chunky/file-upload.component.ts"
+			],
+			[
+				"mockfilesmeta",
+				"src/app/shared/mocks/mock-files-meta.ts"
+			],
+			[
+				"fileupcompsp",
+				"src/app/shared/prime-extensions/file-upload.component.spec.ts"
+			],
+			[
+				"chunkyfile-upload",
+				"src/app/shared/prime-extensions/chunky/file-upload.component.ts"
+			],
+			[
+				"fileuploadts",
+				"src/app/shared/prime-extensions/file-upload.component.ts"
+			],
+			[
+				"contentselecto",
+				"src/app/content/+state/content.selectors.ts"
+			],
+			[
+				"contentinterf",
+				"src/app/content/+state/content.interfaces.ts"
+			],
+			[
+				"chunkyfilespec",
+				"src/app/shared/prime-extensions/chunky/file-upload.component.spec.ts"
+			],
+			[
+				"fileupcompspec",
+				"src/app/shared/prime-extensions/file-upload.component.spec.ts"
+			],
+			[
+				"chunkysteps",
+				"src/app/content/content-upload-chunky/content-upload-chunky-steps.ts"
+			],
+			[
+				"steps",
+				"src/app/content/content-upload/content-upload-steps.ts"
+			],
+			[
+				"fileupcomp",
+				"src/app/shared/prime-extensions/file-upload.component.ts"
+			],
+			[
+				"chunkfilecompts",
+				"src/app/shared/prime-extensions/chunky/file-upload.component.ts"
+			],
+			[
+				"-table/content-data-table.component.unit.spec.ts",
+				"src/app/content/content-data-table/content-data-table.component.unit.spec.ts"
+			],
+			[
+				"http-testin",
+				"src/test/http/http-testing.module.ts"
+			],
+			[
+				"mock-conte",
+				"src/app/shared/mocks/mock-content.service.ts"
+			],
+			[
+				"compspects",
+				"src/app/content/content.component.spec.ts"
+			],
+			[
+				"mockcontentser",
+				"src/app/shared/mocks/mock-content.service.ts"
+			],
+			[
+				"chunkyfileupspec",
+				"src/app/shared/prime-extensions/chunky/file-upload.component.spec.ts"
+			],
+			[
+				"chunkyfileupcompts",
+				"src/app/shared/prime-extensions/chunky/file-upload.component.ts"
+			],
+			[
+				"filecompts",
+				"src/app/shared/prime-extensions/file-upload.component.ts"
+			],
+			[
+				"fileupspec",
+				"src/app/shared/prime-extensions/file-upload.component.spec.ts"
+			],
+			[
+				"mockfilemeta",
+				"src/app/shared/mocks/mock-files-meta.ts"
+			],
+			[
+				"mockfile",
+				"src/app/shared/mocks/mock-filerooms-meta.ts"
+			],
+			[
+				"fileuploadcompts",
+				"src/app/shared/prime-extensions/file-upload.component.ts"
+			],
+			[
+				"replacecomp",
+				"src/app/content/content-toolbar/toolbar-button/toolbar-button-replace.component.ts"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/src/dmurphya/local-gateway.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 353.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 854.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 371.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

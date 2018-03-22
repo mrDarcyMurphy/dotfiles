@@ -1,7 +1,5 @@
 <snippet>
-    <content><![CDATA[
-console.info('ℹ ${1}');
-]]></content>
+    <content><![CDATA[console.info('ℹ️ ${1}');]]></content>
     <tabTrigger>infoLog</tabTrigger>
     <scope>source.ts,source.js</scope>
     <description>console.info</description>

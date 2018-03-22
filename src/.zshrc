@@ -10,10 +10,10 @@ zmodload -i zsh/complist
 autoload colors; colors
 export TERM='xterm-color'
 
-# Base16 Shell
-BASE16_SCHEME="default"
-BASE16_SHELL="$HOME/.config/base16-shell/base16-$BASE16_SCHEME.default.sh"
-[[ -s $BASE16_SHELL ]] && . $BASE16_SHELL
+# # Base16 Shell
+# BASE16_SCHEME="default"
+# BASE16_SHELL="$HOME/.config/base16-shell/base16-$BASE16_SCHEME.default.sh"
+# [[ -s $BASE16_SHELL ]] && . $BASE16_SHELL
 
 # Increase limit on number of files to watch because OS X's default is way too low
 ulimit -n 2048
@@ -27,3 +27,7 @@ if [[ -e ~/.zsh ]]; then
 fi
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+zplug load
+
+echo "-- done"

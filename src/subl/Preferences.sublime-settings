@@ -73,6 +73,7 @@
 	"sidebar_default": true,
 	"skin": "DA UI/Minimal",
 	"smart_indent": true,
+	"tab_completion": false,
 	"tabs_medium": true,
 	"tabs_small": false,
 	"terminal": "iterm",
