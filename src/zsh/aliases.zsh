@@ -29,6 +29,7 @@ alias rs='rails server'
 alias vm='vagrant'
 
 # UPPERS
+alias arangoup='/usr/local/opt/arangodb/sbin/arangod'
 alias mongoup='mongod -v -f /usr/local/etc/mongod.conf'
 alias pgup='postgres -D /usr/local/var/postgres'
 alias redisup='redis-server /usr/local/etc/redis.conf'
