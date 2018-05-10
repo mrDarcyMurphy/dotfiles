@@ -1,0 +1,145 @@
+# Typescript
+'.source.ts':
+
+  # logs
+  '🌲 Log - Log':
+    prefix: 'logLog',
+    body: "console.log('🌲 $1')"
+  '🕯 Log - Group':
+    prefix: 'groupLog'
+    body: "console.group('🕯 $1')\n$2\nconsole.groupEnd()"
+  '🔈 Log - Value':
+    prefix: 'vlog'
+    body: "console.debug('🔈 $1:', $1)"
+  '💁 Log - Info':
+    prefix: 'infoLog'
+    body: "console.info('💁 $1')"
+  '⚠️ Log - Warning':
+    prefix: 'warnLog'
+    body: "console.warn('⚠️ $1')"
+
+  # ng
+  '⛽ Log - Angular Service':
+    prefix: 'serviceLog',
+    body: "console.info('⛽ ${1}')"
+
+  # ngrx
+  '🎬 Log - ngrx Action':
+    prefix: 'actionLog',
+    body: "console.info('🎬 ${1}')"
+  '💥 Log - ngrx Effect':
+    prefix: 'effectLog',
+    body: "console.info('💥 ${1}')"
+  '➿ Log - ngrx Reducer':
+    prefix: 'reducerLog',
+    body: "console.info('➿ ${1}')"
+  '✉️ Log - ngrx Selector':
+    prefix: 'selectorLog',
+    body: "console.info('✉️ ${1}')"
+
+  # jasmine
+  'Jasmine – describe':
+    prefix: 'describe',
+    body: "describe('$1', () => {\n\t$2\n})"
+  'Jasmine – it':
+    prefix: 'its',
+    body: "it('should $1', () => {\n\t$2\n})"
+  'Jasmine – beforeEach':
+    prefix: 'beforeEach',
+    body: "beforeEach(() => {\n\t$2\n})"
+  'Jasmine – afterEach':
+    prefix: 'afterEach',
+    body: "afterEach(() => {\n\t$2\n})"
+
+  # taste the rainbow
+  '🍎 Log - Apple':
+    prefix: 'appleLog'
+    body: "console.log('🍎 $1')"
+  '🍊 Log – Orange':
+    prefix: 'orangeLog'
+    body: "console.log('🍊 $1')"
+  '🍋 Log – Lemon':
+    prefix: 'lemonLog'
+    body: "console.log('🍋 $1')"
+  '🍏 Log – Green Apple':
+    prefix: 'greenAppleLog'
+    body: "console.log('🍏 $1')"
+  '🍇 Log – Grapes':
+    prefix: 'grapeLog'
+    body: "console.log('🍇 $1')"
+  '🍌 Log – Banana':
+    prefix: 'bananaLog'
+    body: "console.log('🍌 $1')"
+
+# Javascript
+'.source.js':
+
+  # logs
+  '🌲 Log - Log':
+    prefix: 'logLog',
+    body: "console.log('🌲 $1')"
+  '🕯 Log - Group':
+    prefix: 'groupLog'
+    body: "console.group('🕯 $1')\n$2\nconsole.groupEnd()"
+  '🔈 Log - Value':
+    prefix: 'vlog'
+    body: "console.debug('🔈 $1:', $1)"
+  '💁 Log - Info':
+    prefix: 'infoLog'
+    body: "console.info('💁 $1')"
+  '⚠️ Log - Warning':
+    prefix: 'warnLog'
+    body: "console.warn('⚠️ $1')"
+
+  # ng
+  '⛽ Log - Angular Service':
+    prefix: 'serviceLog',
+    body: "console.info('⛽ ${1}')"
+
+  # ngrx
+  '🎬 Log - ngrx Action':
+    prefix: 'actionLog',
+    body: "console.info('🎬 ${1}')"
+  '💥 Log - ngrx Effect':
+    prefix: 'effectLog',
+    body: "console.info('💥 ${1}')"
+  '➿ Log - ngrx Reducer':
+    prefix: 'reducerLog',
+    body: "console.info('➿ ${1}')"
+  '✉️ Log - ngrx Selector':
+    prefix: 'selectorLog',
+    body: "console.info('✉️ ${1}')"
+
+  # jasmine
+  'Jasmine – describe':
+    prefix: 'describe',
+    body: "describe('$1', () => {\n\t$2\n})"
+  'Jasmine – it':
+    prefix: 'its',
+    body: "it('should $1', () => {\n\t$2\n})"
+  'Jasmine – beforeEach':
+    prefix: 'beforeEach',
+    body: "beforeEach(() => {\n\t$2\n})"
+  'Jasmine – afterEach':
+    prefix: 'afterEach',
+    body: "afterEach(() => {\n\t$2\n})"
+
+  # taste the rainbow
+  '🍎 Log - Apple':
+    prefix: 'appleLog'
+    body: "console.log('🍎 $1')"
+  '🍊 Log – Orange':
+    prefix: 'orangeLog'
+    body: "console.log('🍊 $1')"
+  '🍋 Log – Lemon':
+    prefix: 'lemonLog'
+    body: "console.log('🍋 $1')"
+  '🍏 Log – Green Apple':
+    prefix: 'greenAppleLog'
+    body: "console.log('🍏 $1')"
+  '🍇 Log – Grapes':
+    prefix: 'grapeLog'
+    body: "console.log('🍇 $1')"
+  '🍌 Log – Banana':
+    prefix: 'bananaLog'
+    body: "console.log('🍌 $1')"
