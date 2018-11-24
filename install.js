@@ -36,11 +36,17 @@ conditionallySymlinkSync( __dirname + '/src/zsh', home + '/.zsh', 'dir' )
 // log('\nLINKING: .ansible.cfg')
 // conditionallySymlinkSync( __dirname + '/src/ansible/.ansible.cfg', home + '/.ansible.cfg' )
 
+// atom
+log('\nLINKING: atom')
+conditionallySymlinkSync( __dirname + '/src/atom/config.cson', home + '/.atom/config.cson' )
+conditionallySymlinkSync( __dirname + '/src/atom/projects.cson', home + '/.atom/projects.cson' )
+conditionallySymlinkSync( __dirname + '/src/atom/snippets.cson', home + '/.atom/snippets.cson' )
+
 // Sublime Text 3
 // log('\nLINKING: subl')
 // conditionallySymlinkSync( '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl', '/usr/local/bin/subl' )
 
-// preferences
+// Sublime Text 3 Preferences
 // log('\nLINKING: src/subl/Preferences.sublime-settings')
 // conditionallySymlinkSync( __dirname + '/src/subl/Preferences.sublime-settings', home + '/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings' )
 

@@ -1,0 +1,22 @@
+"*":
+  core:
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "nord-atom-syntax"
+    ]
+    titleBar: "custom-inset"
+  editor:
+    fontFamily: "PragmataPro"
+    lineHeight: 1.35
+    preferredLineLength: 128
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "9be3f116-d092-4ec6-b097-901aa03305c7"
+  "linter-ui-default":
+    showPanel: true
+  "tree-view":
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false

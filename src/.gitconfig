@@ -30,8 +30,8 @@
   u = pull --rebase
   cnf = !git ls-files -u | cut -f 2 | sort -u
 [core]
-  editor = atom --wait
-  excludesfile = /Users/LoudBit/.gitignore_global
+  editor = vim
+  excludesfile = /Users/mrdarcymurphy/.gitignore_global
 [push]
   default = tracking
 [difftool]
