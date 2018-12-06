@@ -17,6 +17,7 @@ alias gpl='git push --force-with-lease'
 alias gdn='grunt dev && n'
 alias gdt='grunt dev && grunt test'
 # alias rm=trash
+alias ns='npm start'
 
 # # NODE-WEBKIT
 # alias nw="/Applications/node-webkit.app/Contents/MacOS/node-webkit"

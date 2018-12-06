@@ -30,4 +30,4 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 zplug load
 
-echo "-- done"
+echo "\n\n🤘🏻 Let’s rock"

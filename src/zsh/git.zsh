@@ -183,6 +183,22 @@ new-branch() {
   git checkout -b $1 && git push --set-upstream origin $1;
 }
 
+gbak() {
+#   foo=0;
+#   echo `parse_git_branch`;
+
+#   exists=git show-ref refs/heads/`parse_git_branch`;
+#   echo $exists;
+
+#   while (($foo < 10));
+#   do
+#     echo `parse_git_branch`-$foo;
+#     echo $foo;
+#     ((foo += 1));
+#   done;
+}
+
+
 # Jira check in
 jci() {
   branch=`parse_git_branch`

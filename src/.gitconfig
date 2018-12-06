@@ -1,8 +1,8 @@
 [credential]
   helper = osxkeychain
 [user]
-  name = Darcy Murphy
-  email = darcy.murphy@merrillcorp.com
+	name = Darcy Murphy
+	email = darcy.murphy@merrillcorp.com
 [github]
   user = mrDarcyMurphy
 [color]
@@ -10,7 +10,7 @@
   status = auto
   branch = auto
 [alias]
-  st = status
+  ch = cherry-pick
   ci = commit
   co = checkout
   br = branch
@@ -29,6 +29,8 @@
   u = pull --rebase
   cnf = !git ls-files -u | cut -f 2 | sort -u
   dso = "!f() { git checkout -b DSO-$1; }; f"
+  st = stash push --keep-index
+  sp = stash push --patch --keep-index
 [core]
   editor = vim
   excludesfile = /Users/dmurphya/.gitignore
@@ -51,6 +53,9 @@
   clean = git media clean %f
   smudge = git media smudge %f
 [filter "lfs"]
-  clean = git-lfs clean %f
-  smudge = git-lfs smudge %f
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
   required = true
+	process = git-lfs filter-process
+[gui]
+	recentrepo = /Users/dmurphya/src/dmurphya/manda-app
